@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    margin: 15px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    padding: 10px 15px;
+    list-style: none;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.cuadrito{
+    background: gray;
+    margin: 10px 0;
+    width: 15px;
+    height: 25px;
+}
+.circulo{
+    background: gray;
+    margin: 10px 0;
+    width: 2px;
+    height: 25px;
+    border-radius: 50%;
+    margin:10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.busqueda{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.busqueda input{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+.botones button{
+    margin: 10px 20px;
+    width: 220px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #f5ebeb;
+}
+
+.texto-centro{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+.texto-centro img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.ofrecido{
+    margin: 50px;
+}
+.footer-principal{
+    background-color: #f5ebeb;
+    padding: 24px;
+}
+.mexico{
+    border-bottom: 1px solid #dadce0;
+    color: #70757a;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: #f5ebeb;
+}
+.footer ul{
+    display: flex;
+}
+.footer ul li{
+    list-style: none;
+    margin: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: #70757a;
+}
+
